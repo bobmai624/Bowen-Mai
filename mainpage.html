@@ -3,6 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mentor Cruise</title>
   <link rel="stylesheet" href="mentorcruise.css">
+  <script src="mentor.js"></script>
+
 </head>
 
 <body>
@@ -269,35 +271,51 @@
 
 
 
+
+  <section class="interactive-service">
+    <div class="service-tabs">
+      <button class="tab-btn" data-tab="intro">Intro Call</button>
+      <button class="tab-btn" data-tab="review">Work Review</button>
+      <button class="tab-btn" data-tab="interview">Interview Prep</button>
+    </div>
+
+    <div class="card-container">
+      <div class="service-card card-intro active">
+        <h3>Intro Call</h3>
+        <p>Quick advice from experienced mentors via a short 1-on-1 call.</p>
+      </div>
+      <div class="service-card card-review">
+        <h3>Work Review</h3>
+        <p>Upload your project and receive in-depth feedback and insights.</p>
+      </div>
+      <div class="service-card card-interview">
+        <h3>Interview Prep</h3>
+        <p>Practice mock interviews with real industry professionals.</p>
+      </div>
+    </div>
   </section>
 
 
-  <section class="service-tabs">
-    <button class="active">Intro Call</button>
-    <button>Work Review</button>
-    <button>Interview Prep</button>
-  </section>
 
-
-  <section class="service-info">
-    <h3>Intro Call</h3>
-    <p>Quickly get guidance on your current situation. Ask any question and get immediate feedback via a 30-minute 1-on-1 video call.</p>
-    <p><strong>Approx. $39</strong></p>
-    <a href="#" class="btn-primary">Browse mentors</a>
-  </section>
-
-
-  <footer>
-    <div class="footer-brand">Mentor Cushion</div>
-    <p>Reliable service has always been our first priority!</p>
-    <ul class="footer-links">
-      <li><a href="#">Looking for Mentors</a></li>
-      <li><a href="#">How to become a Mentor</a></li>
-      <li><a href="#">FAQs</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Connections</a></li>
-    </ul>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h2 class="footer-brand">Mentor Cruise</h2>
+        <p class="footer-slogan">Reliable service has always been our first priority!</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#">Looking for Mentor</a></li>
+          <li><a href="#">How to Become a Mentor</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Connections</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 
+  <script src="mentor.js"></script>
 </body>
 </html>
+
