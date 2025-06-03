@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mentor Cushion</title>
+  <title>Mentor Cruise</title>
+  <link rel="stylesheet" href="mentorcruise.css">
 </head>
+
 <body>
 
 
   <header>
     <div class="header-container">
-      <div class="logo">Mentor Cushion</div>
+      <div class="logo">Mentor Cruise</div>
       <nav class="nav-links">
         <ul>
           <li><a href="#"><img src="assets/profile.png" alt="Profile" class="profile-icon"></a></li>
@@ -22,7 +22,7 @@
       </nav>
     </div>
   </header>
-  
+
 
 
   <section class="hero full-screen">
@@ -49,24 +49,224 @@
     </div>
   </section>
 
+  <section class="mentor-cards scroll-container">
+    <div class="mentor-row">
 
-  <section class="mentor-cards">
-    <div class="mentor-card">
-      <img src="assets/mentor1.jpg" alt="Mentor Image">
-      <h3>Jane Doe</h3>
-      <p>Software Engineer</p>
-      <div class="tags">
-        <span>Java</span>
-        <span>AI</span>
-        <span>Business</span>
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor1.jpg" alt="Mentor Image">
+        </div>
+        <h3>Jane Doe</h3>
+        <p class="mentor-role">Software Engineer</p>
+        <div class="tags">
+          <button>Java</button>
+          <button>AI</button>
+          <button>Business</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$50</span></div>
+          <div class="service-block"><p>Review</p><span>$60</span></div>
+          <div class="service-block"><p>1v1</p><span>$100</span></div>
+        </div>
+        <span class="badge">Most Relevant</span>
       </div>
-      <div class="services">
-        <button>Intro Call - $50</button>
-        <button>Review - $60</button>
-        <button>1v1 - $100</button>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor2.jpg" alt="Mentor Image">
+        </div>
+        <h3>John Smith</h3>
+        <p class="mentor-role">UX Designer</p>
+        <div class="tags">
+          <button>Figma</button>
+          <button>UI</button>
+          <button>Design</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$45</span></div>
+          <div class="service-block"><p>Review</p><span>$55</span></div>
+          <div class="service-block"><p>1v1</p><span>$95</span></div>
+        </div>
+        <span class="badge">Hot</span>
       </div>
-      <span class="badge">Most Relevant</span>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor3.jpg" alt="Mentor Image">
+        </div>
+        <h3>Alice Lee</h3>
+        <p class="mentor-role">Product Manager</p>
+        <div class="tags">
+          <button>Agile</button>
+          <button>Strategy</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$40</span></div>
+          <div class="service-block"><p>Review</p><span>$60</span></div>
+          <div class="service-block"><p>1v1</p><span>$90</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor4.jpg" alt="Mentor Image">
+        </div>
+        <h3>David Kim</h3>
+        <p class="mentor-role">Marketing Expert</p>
+        <div class="tags">
+          <button>SEO</button>
+          <button>Branding</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$50</span></div>
+          <div class="service-block"><p>Review</p><span>$65</span></div>
+          <div class="service-block"><p>1v1</p><span>$105</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor5.jpg" alt="Mentor Image">
+        </div>
+        <h3>Emily Zhang</h3>
+        <p class="mentor-role">Startup Advisor</p>
+        <div class="tags">
+          <button>Pitch</button>
+          <button>Fundraising</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$55</span></div>
+          <div class="service-block"><p>Review</p><span>$70</span></div>
+          <div class="service-block"><p>1v1</p><span>$110</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor6.jpg" alt="Mentor Image">
+        </div>
+        <h3>Robert Chen</h3>
+        <p class="mentor-role">Leadership Coach</p>
+        <div class="tags">
+          <button>Leadership</button>
+          <button>Management</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$50</span></div>
+          <div class="service-block"><p>Review</p><span>$60</span></div>
+          <div class="service-block"><p>1v1</p><span>$100</span></div>
+        </div>
+      </div>
     </div>
+
+    <!-- Row 2 -->
+    <div class="mentor-row offset-row">
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor7.jpg" alt="Mentor Image">
+        </div>
+        <h3>Linda Park</h3>
+        <p class="mentor-role">Engineering Mentor</p>
+        <div class="tags">
+          <button>C++</button>
+          <button>Python</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$52</span></div>
+          <div class="service-block"><p>Review</p><span>$65</span></div>
+          <div class="service-block"><p>1v1</p><span>$95</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor8.jpg" alt="Mentor Image">
+        </div>
+        <h3>Tom Lee</h3>
+        <p class="mentor-role">AI Engineer</p>
+        <div class="tags">
+          <button>ML</button>
+          <button>Deep Learning</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$48</span></div>
+          <div class="service-block"><p>Review</p><span>$58</span></div>
+          <div class="service-block"><p>1v1</p><span>$90</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor9.jpg" alt="Mentor Image">
+        </div>
+        <h3>Nina Brown</h3>
+        <p class="mentor-role">HR Consultant</p>
+        <div class="tags">
+          <button>Hiring</button>
+          <button>Culture</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$50</span></div>
+          <div class="service-block"><p>Review</p><span>$65</span></div>
+          <div class="service-block"><p>1v1</p><span>$95</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor10.jpg" alt="Mentor Image">
+        </div>
+        <h3>Chris Wang</h3>
+        <p class="mentor-role">Product Lead</p>
+        <div class="tags">
+          <button>Product</button>
+          <button>Launch</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$60</span></div>
+          <div class="service-block"><p>Review</p><span>$70</span></div>
+          <div class="service-block"><p>1v1</p><span>$110</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor11.jpg" alt="Mentor Image">
+        </div>
+        <h3>Olivia Lin</h3>
+        <p class="mentor-role">UI Specialist</p>
+        <div class="tags">
+          <button>Typography</button>
+          <button>Layout</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$42</span></div>
+          <div class="service-block"><p>Review</p><span>$50</span></div>
+          <div class="service-block"><p>1v1</p><span>$85</span></div>
+        </div>
+      </div>
+
+      <div class="mentor-card">
+        <div class="mentor-image">
+          <img src="assets/mentor12.jpg" alt="Mentor Image">
+        </div>
+        <h3>Kevin Zhao</h3>
+        <p class="mentor-role">Founder</p>
+        <div class="tags">
+          <button>Startup</button>
+          <button>Leadership</button>
+        </div>
+        <div class="services">
+          <div class="service-block"><p>Intro Call</p><span>$58</span></div>
+          <div class="service-block"><p>Review</p><span>$75</span></div>
+          <div class="service-block"><p>1v1</p><span>$120</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
 
   </section>
