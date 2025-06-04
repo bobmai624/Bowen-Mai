@@ -1,0 +1,85 @@
+.browse-tags {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 100px 0 40px;
+    background-color: #f7f7f7;
+}
+
+.browse-tags button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.browse-tags button:hover {
+    background-color: #ccc;
+}
+
+.browse-layout {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.filters {
+    width: 280px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-group {
+    margin-bottom: 30px;
+}
+
+.filter-group h4 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.filter-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding: 4px 0;
+    color: #333;
+}
+
+.filter-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.browse-results {
+    flex: 1;
+}
+
+.mentor-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 32px;
+}
+
+.mentor-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
