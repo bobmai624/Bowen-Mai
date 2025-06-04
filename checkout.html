@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="mentorcruise.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<header class="top-nav">
+  <div class="logo">Mentor Cruise</div>
+  <nav class="menu">
+    <a href="index.html">Mentors</a>
+    <a href="#">Applications</a>
+    <a href="#">Inquires</a>
+    <a href="wishlist.html">Wishlist</a>
+    <div class="user-menu">
+      <i class="fas fa-user-circle"></i>
+      <i class="fas fa-caret-down"></i>
+    </div>
+  </nav>
+</header>
+
+<main class="container payment-container">
+  <div class="checkout-card">
+    <div class="avatar large"><i class="fas fa-user"></i></div>
+    <h3 class="mentor-name">Aanchal Chauhan</h3>
+    <p class="session-title">Offer Negotiation</p>
+    <ul class="session-summary">
+      <li><strong>Price</strong><span>$45/h</span></li>
+      <li><strong>Duration</strong><span>1 h</span></li>
+      <li><strong>Number of Participates</strong><span>1</span></li>
+      <li><strong>Discount</strong><span>none</span></li>
+      <li class="total"><strong>Total</strong><span>$45</span></li>
+    </ul>
+  </div>
+
+  <form class="checkout-form">
+    <label>Email address
+      <input type="email" required>
+    </label>
+    <label>Bank account
+      <div class="card-input">
+        <input type="text" placeholder="1234 1234 1234 1234" required>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="VISA" class="card-logo">
+      </div>
+    </label>
+    <div class="card-details">
+      <input type="text" placeholder="MM/YYYY" required>
+      <input type="text" placeholder="CVC" required>
+    </div>
+    <input type="text" placeholder="Full Name" required>
+    <label>Bill address
+      <input type="text">
+    </label>
+    <label class="checkbox-row">
+      <input type="checkbox"> Save my INFO for next time
+    </label>
+    <button class="checkout-btn">Pay</button>
+  </form>
+</main>
+</body>
+</html>

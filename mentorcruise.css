@@ -977,3 +977,532 @@ h3 {
         text-align: left;
     }
 }
+
+/* Wishlist Page Additions */
+
+.wishlist-title {
+    font-size: 2rem;
+    margin: 30px 0 20px;
+    font-weight: bold;
+}
+
+.wishlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.mentor-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 260px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.mentor-tag {
+    font-size: 0.75rem;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.mentor-tag i {
+    color: gold;
+}
+
+.card-sub {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.card-avatar {
+    font-size: 2rem;
+    color: #000;
+}
+
+.card-role {
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.book-now {
+    background: #2f5cd1;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.book-now:hover {
+    background: #2042a0;
+}
+
+.unsave {
+    font-size: 0.75rem;
+    color: #999;
+    text-align: right;
+    cursor: pointer;
+}
+
+.more-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 0.95rem;
+    font-weight: 500;
+    gap: 10px;
+    text-align: center;
+}
+
+.more-box i {
+    font-size: 1.5rem;
+    border: 2px dashed #bbb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+    .wishlist-grid {
+        justify-content: center;
+    }
+    .mentor-card {
+        width: 90%;
+    }
+}
+/* Wishlist Page Additions */
+
+.wishlist-title {
+    font-size: 2rem;
+    margin: 30px 0 20px;
+    font-weight: bold;
+}
+
+.wishlist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.mentor-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 260px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.mentor-tag {
+    font-size: 0.75rem;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.mentor-tag i {
+    color: gold;
+}
+
+.card-sub {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.card-avatar {
+    font-size: 2rem;
+    color: #000;
+}
+
+.card-role {
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+.book-now {
+    background: #2f5cd1;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.book-now:hover {
+    background: #2042a0;
+}
+
+.unsave {
+    font-size: 0.75rem;
+    color: #999;
+    text-align: right;
+    cursor: pointer;
+}
+
+.more-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 0.95rem;
+    font-weight: 500;
+    gap: 10px;
+    text-align: center;
+}
+
+.more-box i {
+    font-size: 1.5rem;
+    border: 2px dashed #bbb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+    .wishlist-grid {
+        justify-content: center;
+    }
+    .mentor-card {
+        width: 90%;
+    }
+}
+.payment-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.booking-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.booking-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.booking-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.date-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.date-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.date-box {
+    border: 2px solid #00a000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #000;
+    flex: 1 0 80px;
+}
+
+.date-box span {
+    color: #008800;
+    font-weight: normal;
+}
+
+.time-section h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.timezone-note {
+    font-size: 0.75rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.time-slots div {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.95rem;
+}
+
+.checkout-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.checkout-card .avatar.large {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    margin: 0 auto 10px;
+}
+
+.checkout-card .mentor-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.checkout-card .session-title {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.session-summary {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+.session-summary li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.session-summary .total {
+    font-weight: bold;
+}
+
+.checkout-btn {
+    display: inline-block;
+    background: #0b8836;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.checkout-btn:hover {
+    background: #066a2a;
+}
+
+@media (max-width: 768px) {
+    .payment-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .checkout-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+/* Checkout Page Styles */
+
+.checkout-form {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checkout-form label {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+
+.card-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card-input input {
+    flex: 1;
+    padding-right: 60px;
+}
+
+.card-input .card-logo {
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-details {
+    display: flex;
+    gap: 10px;
+}
+
+.card-details input {
+    flex: 1;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.checkout-form .checkout-btn {
+    margin-top: 20px;
+    background: #0b8836;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.checkout-form .checkout-btn:hover {
+    background: #066a2a;
+}
+
+@media (max-width: 768px) {
+    .checkout-form {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+/* Paid Success Page */
+
+.paid-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.paid-icon img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.back-home-btn {
+    display: inline-block;
+    background-color: #3d5ca3;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.back-home-btn:hover {
+    background-color: #2b4891;
+}

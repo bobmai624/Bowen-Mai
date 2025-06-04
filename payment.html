@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="mentorcruise.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+<header class="top-nav">
+  <div class="logo">Mentor Cruise</div>
+  <nav class="menu">
+    <a href="index.html">Mentors</a>
+    <a href="#">Applications</a>
+    <a href="#">Inquires</a>
+    <a href="wishlist.html">Wishlist</a>
+    <div class="user-menu">
+      <i class="fas fa-user-circle"></i>
+      <i class="fas fa-caret-down"></i>
+    </div>
+  </nav>
+</header>
+
+<main class="container payment-container">
+  <form class="booking-form">
+    <h2>Confirm booking</h2>
+    <div class="form-row">
+      <input type="text" placeholder="First name" required>
+      <input type="text" placeholder="Last name" required>
+    </div>
+    <input type="email" placeholder="Email address" required>
+    <textarea placeholder="Message (optional)"></textarea>
+
+    <div class="date-section">
+      <h3>Date</h3>
+      <div class="date-options">
+        <div class="date-box">FRI<br><strong>Apr 18</strong><br><span>7 spots</span></div>
+        <div class="date-box">SAT<br><strong>Apr 19</strong><br><span>7 spots</span></div>
+        <div class="date-box">SUN<br><strong>Apr 20</strong><br><span>7 spots</span></div>
+        <div class="date-box">MON<br><strong>Apr 21</strong><br><span>7 spots</span></div>
+        <div class="date-box">TUE<br><strong>Apr 22</strong><br><span>7 spots</span></div>
+        <div class="date-box">WED<br><strong>Apr 23</strong><br><span>7 spots</span></div>
+      </div>
+    </div>
+
+    <div class="time-section">
+      <h4>Available Times</h4>
+      <p class="timezone-note">In your local time (Australia/Melbourne)</p>
+      <div class="time-slots">
+        <div>07:30</div>
+        <div>08:00</div>
+        <div>08:30</div>
+        <div>09:00</div>
+      </div>
+    </div>
+  </form>
+
+  <div class="checkout-card">
+    <div class="avatar large"><i class="fas fa-user"></i></div>
+    <h3 class="mentor-name">Aanchal Chauhan</h3>
+    <p class="session-title">Offer Negotiation</p>
+    <ul class="session-summary">
+      <li><strong>Price</strong><span>$45/h</span></li>
+      <li><strong>Duration</strong><span>1 h</span></li>
+      <li><strong>Number of Participates</strong><span>1</span></li>
+      <li><strong>Discount</strong><span>none</span></li>
+      <li class="total"><strong>Total</strong><span>$45</span></li>
+    </ul>
+    <a href="#" class="checkout-btn">Go to checkout</a>
+  </div>
+</main>
+</body>
+</html>
