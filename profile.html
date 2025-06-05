@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mentor Profile</title>
   <link rel="stylesheet" href="mentorcruise.css" />
+  <script src="profile-card.js"></script>
+
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
@@ -33,7 +35,7 @@
         <div class="mentor-info">
           <span class="status-label">Top Mentor <i class="fas fa-star"></i></span>
           <h1 class="mentor-name">Aanchal Chauhan <i class="fab fa-linkedin"></i></h1>
-          <p class="mentor-role">Designer</p>
+
           <ul class="mentor-details">
             <li><i class="fas fa-map-marker-alt"></i> Melbourne, Australia</li>
             <li><i class="fas fa-star"></i> 5.0</li>
@@ -119,39 +121,43 @@
         </div>
       </div>
     </div>
-    <!-- Right column: Session booking tabs -->
     <div class="profile-right">
-      <div class="session-tabs">
-        <button class="tab-link active" data-tab="intro">Intro Call</button>
-        <button class="tab-link" data-tab="review">Review</button>
-        <button class="tab-link" data-tab="interview">Interview</button>
-      </div>
-      <div id="intro" class="tab-content active">
-        <div class="session-card">
-          <p><i class="fas fa-phone"></i> A 15 min one-on-one Introductory call with Benjamin</p>
-          <p><i class="fas fa-calendar-alt"></i> Risk-free scheduling – cancel the session anytime</p>
-          <p class="session-price">$45<span>/h</span></p>
-          <a href="booking.html" class="book-btn">Book Now</a>
+      <section class="profile-interactive-service">
+        <div class="profile-service-tabs">
+          <button class="profile-tab-btn" data-tab="intro">Intro Call</button>
+          <button class="profile-tab-btn" data-tab="review">Work Review</button>
+          <button class="profile-tab-btn" data-tab="interview">Interview Prep</button>
         </div>
-      </div>
-      <div id="review" class="tab-content">
-        <div class="session-card">
-          <p><i class="fas fa-file-alt"></i> A 45 min in-depth review session (resume, code, etc.) with Benjamin</p>
-          <p><i class="fas fa-comments"></i> Receive detailed feedback and improvement tips</p>
-          <p class="session-price">$45<span>/h</span></p>
-          <a href="booking.html" class="book-btn">Book Now</a>
+
+        <div class="profile-card-container">
+          <div class="profile-service-card profile-card-intro active">
+            <h3>Intro Call</h3>
+            <p><i class="fas fa-phone"></i> A 15 min one-on-one Introductory call with Benjamin</p>
+            <p><i class="fas fa-calendar-alt"></i> Risk-free scheduling – cancel the session anytime</p>
+            <p class="profile-session-price">$45<span>/h</span></p>
+            <a href="booking.html" class="profile-book-btn">Book Now</a>
+          </div>
+
+          <div class="profile-service-card profile-card-review">
+            <h3>Work Review</h3>
+            <p><i class="fas fa-file-alt"></i> A 45 min in-depth review session (resume, code, etc.) with Benjamin</p>
+            <p><i class="fas fa-comments"></i> Receive detailed feedback and improvement tips</p>
+            <p class="profile-session-price">$60<span>/h</span></p>
+            <a href="booking.html" class="profile-book-btn">Book Now</a>
+          </div>
+
+          <div class="profile-service-card profile-card-interview">
+            <h3>Interview Prep</h3>
+            <p><i class="fas fa-video"></i> A 30 min mock interview to prepare you for real interviews</p>
+            <p><i class="fas fa-comments"></i> Get constructive feedback on your interview performance</p>
+            <p class="profile-session-price">$75<span>/h</span></p>
+            <a href="booking.html" class="profile-book-btn">Book Now</a>
+          </div>
         </div>
-      </div>
-      <div id="interview" class="tab-content">
-        <div class="session-card">
-          <p><i class="fas fa-video"></i> A 30 min mock interview to prepare you for real interviews</p>
-          <p><i class="fas fa-comments"></i> Get constructive feedback on your interview performance</p>
-          <p class="session-price">$45<span>/h</span></p>
-          <a href="booking.html" class="book-btn">Book Now</a>
-        </div>
-      </div>
+      </section>
     </div>
-  </div>
+
+
 </main>
 <script src="script.js"></script>
 </body>
