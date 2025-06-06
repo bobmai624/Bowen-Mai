@@ -23,8 +23,7 @@
   </div>
 </header>
 
-
-<main class="container payment-container">
+<main class="container checkout-page">
   <div class="checkout-card">
     <div class="avatar large"><i class="fas fa-user"></i></div>
     <h3 class="mentor-name">Aanchal Chauhan</h3>
@@ -38,28 +37,36 @@
     </ul>
   </div>
 
-  <form class="checkout-form">
-    <label>Email address
+  <form class="checkout-form" action="back.html" method="GET">
+
+  <label>Email address
       <input type="email" required>
     </label>
+
     <label>Bank account
       <div class="card-input">
         <input type="text" placeholder="1234 1234 1234 1234" required>
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="VISA" class="card-logo">
       </div>
     </label>
+
     <div class="card-details">
       <input type="text" placeholder="MM/YYYY" required>
       <input type="text" placeholder="CVC" required>
     </div>
+
     <input type="text" placeholder="Full Name" required>
+
     <label>Bill address
       <input type="text">
     </label>
+
     <label class="checkbox-row">
       <input type="checkbox"> Save my INFO for next time
     </label>
+
     <button class="checkout-btn">Pay</button>
+
   </form>
 </main>
 </body>

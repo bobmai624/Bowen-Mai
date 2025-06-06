@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mentor Profile</title>
   <link rel="stylesheet" href="mentorcruise.css" />
-  <script src="profile-card.js"></script>
-
-  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="profile-card.css" />
+  <script src="profile-card.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
@@ -18,9 +17,9 @@
       <ul>
         <li><a href="#"><img src="head.png" alt="Profile" class="profile-icon"></a></li>
         <li><a href="wishlist.html">Wishlist</a></li>
-        <li>Enquiries</a></li>
-        <li>Applications</a></li>
-        <li>Mentors</a></li>
+        <li>Enquiries</li>
+        <li>Applications</li>
+        <li>Mentors</li>
       </ul>
     </nav>
   </div>
@@ -28,14 +27,12 @@
 
 <main class="container">
   <div class="profile-container">
-    <!-- Left column: Mentor profile info -->
     <div class="profile-left">
       <div class="mentor-header">
         <div class="avatar"><i class="fas fa-user"></i></div>
         <div class="mentor-info">
           <span class="status-label">Top Mentor <i class="fas fa-star"></i></span>
           <h1 class="mentor-name">Aanchal Chauhan <i class="fab fa-linkedin"></i></h1>
-
           <ul class="mentor-details">
             <li><i class="fas fa-map-marker-alt"></i> Melbourne, Australia</li>
             <li><i class="fas fa-star"></i> 5.0</li>
@@ -55,72 +52,8 @@
           </div>
         </div>
       </div>
-      <div class="about">
-        <h2>About me</h2>
-        <p>Hello, I'm Ben!</p>
-        <p>I've spent the majority of my career as a Software Engineer at Microsoft. I'm passionate about open source, crypto and the future of the web.</p>
-        <p>My day job is spent working on a range of client-side JavaScript/TypeScript, mostly related to service workers and React.js.</p>
-        <p>I also have a passion for helping others. From career guidance, to interview prep, to advice on navigating corporate life in a company like Microsoft. I would love to help you grow in whatever way I can.</p>
-      </div>
-      <div class="bottom-section">
-        <div class="reviews-section">
-          <h2>What mentees say</h2>
-          <div class="review-card">
-            <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
-            <div class="review-content">
-              <p class="reviewer-name">Alexander <span class="review-date">May 6, 2025</span></p>
-              <p class="review-text">Benjamin is awesome. Highly recommended. During every call he provided multiple insights and areas for improvement. He also is an easygoing, polite, and generally positive person. Looking forward to working with Ben again in the future.</p>
-            </div>
-          </div>
-          <div class="review-card">
-            <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
-            <div class="review-content">
-              <p class="reviewer-name">Alexander <span class="review-date">May 6, 2025</span></p>
-              <p class="review-text">Benjamin is awesome. Highly recommended. During every call he provided multiple insights and areas for improvement. He also is an easygoing, polite, and generally positive person. Looking forward to working with Ben again in the future.</p>
-            </div>
-          </div>
-        </div>
-        <div class="similar-section">
-          <h2>Similar mentors</h2>
-          <div class="similar-mentors">
-            <div class="mentor-card">
-              <div class="card-left">
-                <div class="small-avatar"><i class="fas fa-user"></i></div>
-                <div>
-                  <p class="mentor-card-name">Tanner <span class="mentor-card-title">Software Engineer</span></p>
-                  <div class="mentor-card-skills">
-                    <span class="skill-tag">Engineering</span>
-                    <span class="skill-tag">Design</span>
-                    <span class="skill-tag">Startup</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card-right">
-                <span class="one-on-one">1 V 1</span>
-                <span class="price">$50/h</span>
-              </div>
-            </div>
-            <div class="mentor-card">
-              <div class="card-left">
-                <div class="small-avatar"><i class="fas fa-user"></i></div>
-                <div>
-                  <p class="mentor-card-name">Tanner <span class="mentor-card-title">Software Engineer</span></p>
-                  <div class="mentor-card-skills">
-                    <span class="skill-tag">Engineering</span>
-                    <span class="skill-tag">Design</span>
-                    <span class="skill-tag">Startup</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card-right">
-                <span class="one-on-one">1 V 1</span>
-                <span class="price">$50/h</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+
     <div class="profile-right">
       <section class="profile-interactive-service">
         <div class="profile-service-tabs">
@@ -135,7 +68,7 @@
             <p><i class="fas fa-phone"></i> A 15 min one-on-one Introductory call with Benjamin</p>
             <p><i class="fas fa-calendar-alt"></i> Risk-free scheduling – cancel the session anytime</p>
             <p class="profile-session-price">$45<span>/h</span></p>
-            <a href="booking.html" class="profile-book-btn">Book Now</a>
+            <a href="wishlist.html" class="profile-book-btn">Book Now</a>
           </div>
 
           <div class="profile-service-card profile-card-review">
@@ -143,7 +76,7 @@
             <p><i class="fas fa-file-alt"></i> A 45 min in-depth review session (resume, code, etc.) with Benjamin</p>
             <p><i class="fas fa-comments"></i> Receive detailed feedback and improvement tips</p>
             <p class="profile-session-price">$60<span>/h</span></p>
-            <a href="booking.html" class="profile-book-btn">Book Now</a>
+            <a href="wishlist.html" class="profile-book-btn">Book Now</a>
           </div>
 
           <div class="profile-service-card profile-card-interview">
@@ -151,14 +84,118 @@
             <p><i class="fas fa-video"></i> A 30 min mock interview to prepare you for real interviews</p>
             <p><i class="fas fa-comments"></i> Get constructive feedback on your interview performance</p>
             <p class="profile-session-price">$75<span>/h</span></p>
-            <a href="booking.html" class="profile-book-btn">Book Now</a>
+            <a href="wishlist.html" class="profile-book-btn">Book Now</a>
           </div>
         </div>
       </section>
     </div>
+  </div>
 
+  <!-- 包裹About和Reviews的大背景卡片 -->
+  <div class="profile-info-section">
+    <!-- About me -->
+    <div class="about-section">
+      <h2>About me</h2>
+      <p>Hello, I'm Ben!</p>
+      <p>I've spent the majority of my career as a Software Engineer at Microsoft. I'm passionate about open source, crypto and the future of the web.</p>
+      <p>My day job is spent working on a range of client-side JavaScript/TypeScript, mostly related to service workers and React.js.</p>
+      <p>I also have a passion for helping others. From career guidance, to interview prep, to advice on navigating corporate life in a company like Microsoft. I would love to help you grow in whatever way I can.</p>
+    </div>
+
+    <!-- What mentees say -->
+    <div class="reviews-section">
+      <h2>What mentees say</h2>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+          <div class="reviewer-info">
+            <p class="reviewer-name">Alexander</p>
+            <p class="review-date">May 6, 2025</p>
+          </div>
+        </div>
+        <p class="review-text">Benjamin is awesome. Highly recommended. During every call he provided multiple insights and areas for improvement. He also is an easygoing, polite, and generally positive person. Looking forward to working with Ben again in the future.</p>
+      </div>
+
+      <div class="review-card">
+        <div class="review-header">
+          <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+          <div class="reviewer-info">
+            <p class="reviewer-name">Alexander</p>
+            <p class="review-date">May 6, 2025</p>
+          </div>
+        </div>
+        <p class="review-text">Benjamin is awesome. Highly recommended. During every call he provided multiple insights and areas for improvement. He also is an easygoing, polite, and generally positive person. Looking forward to working with Ben again in the future.</p>
+      </div>
+    </div>
+  </div>
+  <div class="similar-mentors-row">
+    <!-- Mentor 1 -->
+    <div class="mini-mentor">
+      <div class="mini-left">
+        <div class="mini-avatar"><i class="fas fa-user"></i></div>
+        <div>
+          <p class="mini-name">Tanner</p>
+          <p class="mini-title">Software Engineer</p>
+          <div class="mini-tags">
+            <span class="mini-tag">Engineering</span>
+            <span class="mini-tag">Design</span>
+            <span class="mini-tag">Startup</span>
+          </div>
+        </div>
+      </div>
+      <div class="mini-right">
+        <div class="mini-right-card">
+          <span class="mini-type">1 V 1</span>
+          <span class="mini-price">$50/h</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Mentor 2 -->
+    <div class="mini-mentor">
+      <div class="mini-left">
+        <div class="mini-avatar"><i class="fas fa-user"></i></div>
+        <div>
+          <p class="mini-name">Morgan</p>
+          <p class="mini-title">Product Designer</p>
+          <div class="mini-tags">
+            <span class="mini-tag">UX</span>
+            <span class="mini-tag">Leadership</span>
+            <span class="mini-tag">Product</span>
+          </div>
+        </div>
+      </div>
+      <div class="mini-right">
+        <div class="mini-right-card">
+          <span class="mini-type">1 V 1</span>
+          <span class="mini-price">$50/h</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h2 class="footer-brand">Mentor Cruise</h2>
+        <p class="footer-slogan">Reliable service has always been our first priority!</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#">Looking for Mentor</a></li>
+          <li><a href="#">How to Become a Mentor</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Connections</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </main>
-<script src="script.js"></script>
 </body>
 </html>
